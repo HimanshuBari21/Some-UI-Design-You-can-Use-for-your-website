@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootsrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    <style>
+        body {
+            background: linear-gradient(0deg, green , dodgerblue 50%);
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #ff5500;
+        }
+
+        .profile-button {
+            color: #000000;
+            background: white;
+            box-shadow: none;
+            border: 1px solid #000000;
+        }
+
+        .profile-button:hover {
+            background-color: #000000;   
+        }
+
+        .back:hover {
+            color: #682773;
+            cursor: pointer;
+        }
+
+        .labels {
+            font-size: 11px;
+        }
+    </style>
+    <title>Profile</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class="container rounded bg-white mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                    <img class="mb-5 rounded-circle"
+                        width="150px" 
+                        src="https://media-exp1.licdn.com/dms/image/C4E03AQHSuddiPoM64Q/profile-displayphoto-shrink_200_200/0/1631711859712?e=1652313600&v=beta&t=fqyeyKXP144-QFYebtUniygk1lPv_3DPi2dY18c5Ri4">
+                    <span class="font-weight-bold">Himanshu Bari</span>
+                    <span class="text-black-50"> <a href="tel:+91 8849959488">+91 889959488</a> </span>
+                    <span class="text-black-50"> <a href="mailto:himanshubari789@mail.com">himanshubari789@gmail.com</a> </span>
+                </div>
+                <br>
+                <button class="btn btn-block btn-primary">Profile</button>
+                <button class="btn btn-block">My Orders</button>
+                <button class="btn btn-block">Change Password</button>
+            </div>
+            <div class="col-md-8">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text">Profile Settings</h4>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="btn-block"><label class="labels">Name</label><input type="text" class="form-control"
+                                placeholder="Name" value=""></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <label class="labels">Mobile Number</label>
+                            <input type="text" class="form-control" placeholder="" value="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label class="labels">Address Line</label>
+                            <input type="text" class="form-control" placeholder="" value="">
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <label class="labels">Email ID</label>
+                            <input type="text" class="form-control" placeholder="" value="">
+                        </div>
+                            
+                        <div class="col-md-12">
+                            <label class="labels">State</label>
+                            <input type="text" class="form-control" placeholder="" value="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label class="labels">Ditrict</label>
+                            <input type="text" class="form-control" placeholder="" value="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label class="labels">Block No.</label>
+                            <input type="text" class="form-control" placeholder="" value="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label class="labels">Gender</label>
+                            <input type="text" class="form-control" placeholder="" value="">
+                        </div>
+                    
+                    </div>
+                    <div class="mt-5 text-center">
+                        <button class="btn btn-primary profile-button" type="button">
+                            Update Profile
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
